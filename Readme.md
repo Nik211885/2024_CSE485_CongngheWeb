@@ -4,5 +4,6 @@
 <ul>
     <li>Lê Khắc Ninh</li>
     <li>Nguyễn Đình Việt</li>
-    <li>Trần Minh Trí</li>
+    <li>Lê Khắc Ninh</li>
+    <li>Nguyễn Minh Hải Sơn</li>
 </ul>
