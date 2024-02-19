@@ -1,0 +1,40 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử bên trong */
+    align-items: center; /* Căn các phần tử theo chiều dọc */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hiển thị các mục theo hàng ngang */
+}
+
+li {
+    /*margin-right: 20px;*/
+    border-right-style: solid;
+    border-color: white;
+    padding:  0 10px 0 10px;
+}
+
+li:last-child {
+    margin-right: 0; /* Loại bỏ margin phải của mục cuối cùng */
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: small;
+}
+
+li a:hover {
+    color: yellow;
+}
+
+.home-icon {
+    color: white;
+    margin-right: 10px; /* Khoảng cách giữa biểu tượng ngôi nhà và các mục trong menu */
+}
