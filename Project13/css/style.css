@@ -1,0 +1,23 @@
+h1{
+    border-left-style: solid;
+    border-color: darkred;
+    padding: 0 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Thêm các định kiểu CSS của bạn ở đây */
+.course {
+    background-color: lightgray;
+    padding: 0 10px;
+    margin: 0 10px 20px;
+    flex-basis: 30.33333%;
+}
+.course h2 {
+    color: darkred;
+}
+.course p {
+    color: #666;
+}
