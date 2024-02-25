@@ -1,0 +1,33 @@
+.basic-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+h2{
+    border-bottom: solid red;
+    width: 90%;
+}
+
+input[type="radio"]{
+    width: 10px;
+}
+
+label{
+    flex-basis: 30%;
+    margin: 5px 0;
+    font-weight: bolder;
+}
+
+input, .gender{
+    width: 50%;
+    padding: 5px 3px;
+    margin: 5px 0;
+}
+
+.contact-info{
+    display: flexbox;
+    flex-wrap: wrap;
+
+}
