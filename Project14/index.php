@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>
+
     <title>Document</title>
 </head>
 
@@ -72,7 +74,18 @@
     </div>
     <div class="optional-info">
         <h2>Optional Info</h2>
-        Notes <script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>
+        Notes 
+        <div id="editor">This is some sample content.</div>
+                <script>
+                        ClassicEditor
+                                .create( document.querySelector( '#editor' ) )
+                                .then( editor => {
+                                        console.log( editor );
+                                } )
+                                .catch( error => {
+                                        console.error( error );
+                                } );
+                </script>
 
     </div>
     
