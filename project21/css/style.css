@@ -1,0 +1,20 @@
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    
+}
+
+.product {
+    background-color: lightblue;
+    padding: 0 10px;
+    margin: 0 10px 20px;
+    /* flex-basis: 22.33333%; */
+}
+
+.product h2 {
+    color: darkred;
+}
+.product p {
+    color: #666;
+}

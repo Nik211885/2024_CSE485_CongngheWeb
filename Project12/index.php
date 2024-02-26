@@ -20,7 +20,7 @@ $navItems = [
     <title>Menu Navigation</title>
     <!-- Thêm link để sử dụng Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 <nav>
