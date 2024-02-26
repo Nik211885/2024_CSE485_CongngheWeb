@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+}
+
+.course {
+    margin-left: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.course h2 {
+    color: #333;
+}
+
+.course p {
+    color: #666;
+}
+
+.contaner {
+    display: grid;
+    /* 	grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+h1 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: red;
+    border-left: 4px solid red;
+    padding-left: 10px;
+}
