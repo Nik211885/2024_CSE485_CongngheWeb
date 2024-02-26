@@ -1,0 +1,22 @@
+.course {
+    background-color: #f9f9f9;
+    padding: 10px;
+    /* margin: 10px; */
+    width: 30%;
+    }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+}
+.course h2 {
+    color: #333;
+}
+.course p {
+    color: #666;
+}
+h1 {
+    border-left: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
