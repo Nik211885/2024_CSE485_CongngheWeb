@@ -25,7 +25,7 @@
         //     }
         // }
 
-        $itemsPerPage = 4; //sl spham trong 1 trang
+        $itemsPerPage = 5; //sl spham trong 1 trang
         $currentPage = isset($_GET['page']) ? $_GET['page'] : 1; //lay dia chi trang hien tai
         $totalPages = ceil(count($products) / $itemsPerPage); //tong so trang = lam tron len(tong sp / so sp trong trang)
 
