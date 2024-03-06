@@ -18,7 +18,7 @@ $USER = json_decode(file_get_contents(ROOT . "/backend/user.json"), true);
         <div class="avatar text-center mt-4">
             <input name="upload-image" accept=".jpg,.png,.jpeg" type="file" class="form-control d-none" id="inputGroupFile02">
             <?php
-            echo '<label for="inputGroupFile02"><img style="width: 200px; height:200px; object-fit:cover; cursor: pointer;" class="rounded-circle overflow-hidden img-thumbnail" src="';
+            echo '<label for="inputGroupFile02"><img style="width: 200px; height:200px; object-fit:cover; cursor: pointer;" id = "avatar-lb" class="rounded-circle overflow-hidden img-thumbnail" src="';
             echo $USER['img_path'];
             echo '" alt="" srcset=""></label>';
             ?>
@@ -60,6 +60,7 @@ $USER = json_decode(file_get_contents(ROOT . "/backend/user.json"), true);
         </div>
         <input style="border: none;" type="submit" value="Change" class="bg-success text-white py-2 rounded-2">
     </form>
+    <script defer src = "scrip/change-avatar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
