@@ -1,1 +1,1 @@
-<img scr='img/Screenshot 2024-03-07 220814.png'>
+<img src='img/Screenshot 2024-03-07 220814.png'>
